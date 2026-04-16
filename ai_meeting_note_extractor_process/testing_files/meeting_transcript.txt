@@ -1,0 +1,58 @@
+Meeting: AI Automation Project Planning
+Date: April 16, 2024
+Time: 3:00 PM - 4:30 PM
+Location: Virtual Conference Room
+
+ATTENDEES:
+- Osama bin Adnan (Project Lead)
+- Sarah Mitchell (AI Specialist)
+- Tom Chen (Backend Developer)
+- Lisa Rodriguez (Frontend Developer)
+- Mike Thompson (DevOps Engineer)
+
+TRANSCRIPT:
+
+Osama: Good afternoon everyone. Let's start our AI automation project planning session. We need to finalize the tech stack and timeline.
+
+Sarah: I've researched various AI providers and think we should go with multiple options for redundancy. OpenRouter, Qwen, Cohere, and Groq all have good performance metrics.
+
+Tom: That's smart. We'll need to build a flexible agent system that can switch between providers seamlessly.
+
+Lisa: What about the UI? Should we go with a modern cyberpunk look or something more traditional?
+
+Osama: Definitely cyberpunk. It will showcase our technical skills better for the portfolio.
+
+Sarah: For the backend, I recommend FastAPI with the OpenAI Agents SDK. It handles async operations well.
+
+Tom: Agreed. I can set up the multi-provider fallback system.
+
+Mike: I'll handle the containerization and deployment pipeline.
+
+Osama: Great. Let's talk about specific models. Sarah, what's your recommendation for Groq?
+
+Sarah: Groq's Llama 3.1 8B is excellent for structured data extraction. It's very fast for processing meeting notes.
+
+Tom: Decision - we'll use Groq as one of our primary providers.
+
+Lisa: I can design the UI with glassmorphism and neon accents.
+
+Osama: Action items:
+- Sarah: Set up Groq integration by April 18th (Priority: High)
+- Tom: Complete agent fallback system by April 20th (Priority: High)
+- Lisa: Design cyberpunk UI by April 19th (Priority: Medium)
+- Mike: Deploy pipeline by April 22nd (Priority: Medium)
+- Osama: Documentation by April 25th (Priority: Low)
+
+Sarah: We should also add PDF and Word document support.
+
+Tom: Good idea. I'll add file processing capabilities.
+
+Osama: Decision - include PDF and Word support in MVP.
+
+Lisa: I'll add a clear button for resetting the form.
+
+Mike: Should we add monitoring?
+
+Osama: Yes, add basic health checks.
+
+Osama: Let's wrap up. Thanks everyone!

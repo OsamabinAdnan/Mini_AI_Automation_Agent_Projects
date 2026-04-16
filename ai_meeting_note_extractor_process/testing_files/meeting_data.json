@@ -1,0 +1,113 @@
+{
+  "meeting": {
+    "title": "Q2 Product Roadmap Discussion",
+    "date": "2024-03-05",
+    "time": "10:00-11:30",
+    "location": "Conference Room A / Zoom",
+    "attendees": [
+      {
+        "name": "John Smith",
+        "role": "Product Manager"
+      },
+      {
+        "name": "Sarah Chen",
+        "role": "Lead Designer"
+      },
+      {
+        "name": "Mike Johnson",
+        "role": "Senior Backend Engineer"
+      },
+      {
+        "name": "Lisa Wang",
+        "role": "Frontend Lead"
+      },
+      {
+        "name": "David Park",
+        "role": "QA Lead"
+      }
+    ],
+    "topics": [
+      {
+        "topic": "UI Redesign",
+        "details": [
+          "Complete dashboard overhaul",
+          "New features: dark mode, data visualization, intuitive navigation",
+          "Mockups due by March 15th",
+          "Design feedback needed by end of week"
+        ]
+      },
+      {
+        "topic": "Backend Changes",
+        "details": [
+          "Migrate from JWT to session-based authentication",
+          "Estimated time: 3 weeks",
+          "Better security implementation"
+        ]
+      },
+      {
+        "topic": "Payment Integration",
+        "details": [
+          "Integrate with Stripe",
+          "Timeline: 2 weeks",
+          "Target deadline: March 30th"
+        ]
+      }
+    ],
+    "decisions": [
+      "Proceed with session-based authentication",
+      "Beta release scheduled for April 5th",
+      "Monthly design reviews starting April"
+    ],
+    "action_items": [
+      {
+        "task": "Complete mockups",
+        "assigned_to": "Sarah",
+        "deadline": "March 15th",
+        "priority": "high"
+      },
+      {
+        "task": "Finish onboarding flow",
+        "assigned_to": "Sarah",
+        "deadline": "March 20th",
+        "priority": "medium"
+      },
+      {
+        "task": "Complete auth refactor",
+        "assigned_to": "Mike",
+        "deadline": "March 25th",
+        "priority": "high"
+      },
+      {
+        "task": "Complete Stripe integration",
+        "assigned_to": "Mike",
+        "deadline": "March 30th",
+        "priority": "high"
+      },
+      {
+        "task": "Coordinate component library with Sarah",
+        "assigned_to": "Lisa",
+        "deadline": "March 20th",
+        "priority": "medium"
+      },
+      {
+        "task": "Prepare test cases",
+        "assigned_to": "David",
+        "deadline": "March 25th",
+        "priority": "medium"
+      },
+      {
+        "task": "Send calendar invites for monthly meetings",
+        "assigned_to": "Lisa",
+        "deadline": "TBD",
+        "priority": "low"
+      },
+      {
+        "task": "Coordinate QA schedule",
+        "assigned_to": "Lisa & David",
+        "deadline": "TBD",
+        "priority": "medium"
+      }
+    ],
+    "summary": "Product roadmap meeting for Q2 planning. Discussed UI redesign, backend changes, and payment integration. Key decisions made regarding authentication approach and beta release timeline."
+  }
+}

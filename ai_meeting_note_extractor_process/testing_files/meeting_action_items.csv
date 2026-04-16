@@ -1,0 +1,9 @@
+Task,Owner,Deadline,Priority
+Complete mockups,Sarah,March 15th,High
+Finish onboarding flow,Sarah,March 20th,Medium
+Complete auth refactor,Mike,March 25th,High
+Complete Stripe integration,Mike,March 30th,High
+Coordinate component library with Sarah,Lisa,March 20th,Medium
+Prepare test cases,David,March 25th,Medium
+Send calendar invites for monthly meetings,Lisa,TBD,Low
+Coordinate QA schedule,Lisa & David,TBD,Medium
