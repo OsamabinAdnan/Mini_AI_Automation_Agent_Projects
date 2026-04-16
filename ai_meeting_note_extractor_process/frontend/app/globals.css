@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #09090b;
+  --color-foreground: #fafafa;
+  --color-card: #18181b;
+  --color-card-hover: #1f1f23;
+  --color-border: #27272a;
+  --color-border-bright: #3f3f46;
+  --color-muted: #71717a;
+  --color-accent: #22d3ee;
+  --color-accent-purple: #a78bfa;
+  --color-accent-green: #34d399;
+  --color-accent-orange: #fb923c;
+  --color-accent-red: #f87171;
+  --color-accent-blue: #60a5fa;
+  --color-glow-cyan: rgba(34, 211, 238, 0.15);
+  --color-glow-purple: rgba(167, 139, 250, 0.15);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #27272a #09090b;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Animated gradient background */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(34, 211, 238, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 211, 238, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Glowing border effect */
+.glow-border {
+  box-shadow:
+    0 0 0 1px rgba(34, 211, 238, 0.1),
+    0 0 15px -3px rgba(34, 211, 238, 0.1),
+    0 0 30px -5px rgba(34, 211, 238, 0.05);
+}
+
+.glow-border:hover {
+  box-shadow:
+    0 0 0 1px rgba(34, 211, 238, 0.2),
+    0 0 20px -3px rgba(34, 211, 238, 0.15),
+    0 0 40px -5px rgba(34, 211, 238, 0.1);
+}
+
+/* Glassmorphism card */
+.glass {
+  background: rgba(24, 24, 27, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(63, 63, 70, 0.5);
+}
+
+/* Neon text glow */
+.text-glow-cyan {
+  text-shadow: 0 0 4px rgba(34, 211, 238, 0.4), 0 0 12px rgba(34, 211, 238, 0.15);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5), 0 0 40px rgba(167, 139, 250, 0.2);
+}
+
+/* Animated pulse ring */
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.4); }
+  70% { box-shadow: 0 0 0 6px rgba(34, 211, 238, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0); }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gradient button */
+.btn-cyber {
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  transition: all 0.3s ease;
+}
+
+.btn-cyber:hover {
+  background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3), 0 0 40px rgba(167, 139, 250, 0.2);
+  transform: translateY(-1px);
+}
+
+.btn-cyber:disabled {
+  background: linear-gradient(135deg, #3f3f46, #52525b);
+  box-shadow: none;
+  transform: none;
+}
+
+/* Tag styles */
+.tag {
+  border: 1px solid rgba(63, 63, 70, 0.5);
+  background: rgba(24, 24, 27, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+/* Textarea cyber style */
+.textarea-cyber {
+  background: rgba(9, 9, 11, 0.8);
+  border: 1px solid #27272a;
+  transition: all 0.3s ease;
+}
+
+.textarea-cyber:focus {
+  border-color: #22d3ee;
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.3), 0 0 15px rgba(34, 211, 238, 0.1);
+  outline: none;
+}
+
+/* Select cyber style */
+.select-cyber {
+  background: rgba(9, 9, 11, 0.8);
+  border: 1px solid #27272a;
+  transition: all 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%2371717a' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.75rem center;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+}
+
+.select-cyber:focus {
+  border-color: #22d3ee;
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.3), 0 0 15px rgba(34, 211, 238, 0.1);
+  outline: none;
+}
+
+/* Skeleton loading animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #18181b 25%, #27272a 50%, #18181b 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Floating particles effect on background */
+.bg-dots {
+  background-image: radial-gradient(rgba(34, 211, 238, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+::selection {
+  background-color: rgba(34, 211, 238, 0.3);
+  color: #fafafa;
+}
