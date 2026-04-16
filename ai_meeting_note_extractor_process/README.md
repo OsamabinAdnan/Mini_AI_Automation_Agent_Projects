@@ -2,6 +2,10 @@
 
 Transform raw meeting transcripts into structured action items, decisions, and summaries using AI agents with multi-provider support.
 
+## Deployed Link
+
+**[MeetingAI](https://meeting-ai-extractor-processor.vercel.app/)**
+
 ## 🚀 Features
 
 - **Multi-AI Provider Support**: Seamlessly switch between OpenRouter, Qwen, Cohere, and Groq
