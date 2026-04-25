@@ -4,7 +4,7 @@ An advanced, AI-powered freelance proposal generator with a high-fidelity Cyberp
 
 ![Cyberpunk UI](https://img.shields.io/badge/UI-Cyberpunk_2.0-cyan)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
-![Next.js](https://img.shields.io/badge/Frontend-Next.js_14-black)
+![Next.js](https://img.shields.io/badge/Frontend-Next.js_16-black)
 ![Supabase](https://img.shields.io/badge/Database-Supabase-blue)
 
 ## 🌌 Project Overview
